@@ -190,6 +190,8 @@ namespace NekoGui {
         DataStore();
 
         void UpdateStartedId(int id);
+
+        QString GetUserAgent(bool isDefault = false) const;
     };
 
     extern DataStore *dataStore;
